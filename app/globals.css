@@ -2,26 +2,94 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+::selection{
+  color: #FFF;
+  background: #363636;
+}
+body::-webkit-scrollbar{
+  width: 4px;
+  background: #d0e1f3;
+}
+body::-webkit-scrollbar-thumb{
+  width: 4px;
+  background: #d0e1f3;
+}
+body::-webkit-scrollbar-track{
+  width: 4px;
+  background: #d0e1f3;
+}
+.serachBoxArea form{
+  @apply flex items-center border-2 border-slate-100 outline-none rounded-lg overflow-hidden;
+}
+.serachBoxArea form input{
+  @apply outline-none px-2 py-2 w-96;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.userIntrection-box b{
+  @apply text-3xl font-extrabold flex items-center p-1 hover:bg-slate-300 hover:rounded-full cursor-pointer;
+}
+.userIntrection-box button{
+  @apply text-3xl font-extrabold flex items-center p-1;
+}
+.userIntrection-box button p{
+  @apply text-xl font-extrabold;
+}
+.leftBar-tabs-list{
+  @apply w-48 border-r-2 border-slate-300 bg-slate-200;
+}
+.leftBar-tabs-list ul a{
+  @apply flex items-center py-4 pl-4;
+}
+.leftBar-tabs-list ul a li{
+  @apply flex items-center;
+}
+.leftBar-tabs-list ul a li b{
+  @apply ml-1;
+}
+.leftBar-tabs-list ul{
+  @apply p-2;
+}
+hr{
+  @apply h-0.5 bg-slate-300;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.leftBar-tabs-list{
+  height: 90%;
+}
+.mainContent{
+  width: calc(100% - 192px);
+}
+.slick-slider .slick-prev, .slick-slider .slick-next{
+  @apply z-10;
+}
+.slick-slider .slick-prev, .slick-slider .slick-next {
+  background-color: #4b6064 !important;
+  color: #FFF !important;
+  padding: 8px !important;
+  border-radius: 0% !important;
+  width: 70px;
+  height: 63px;
+}
+.slick-slider .slick-prev{
+  margin-left: 25px !important;
+  content: "<";
+}
+.slick-slider .slick-next{
+  margin-right: 25px !important;
+  content: ">";
+}
+.slick-track{
+  padding: 6px 85px;
+}
+.mainContent aside{
+  @apply bg-slate-200 border-t-2 border-slate-300;
+}
+.slick-slide{
+  width: fit-content !important;
+  display: flex !important;
+  align-items: center;
+}
+
+.slick-slide{
+  @apply px-4 py-3 border-2 border-slate-300 rounded-lg mr-3 cursor-pointer bg-slate-100 font-bold;
 }

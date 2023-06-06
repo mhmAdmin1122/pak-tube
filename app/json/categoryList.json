@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "category": "All"
+    },
+    {
+        "id": 2,
+        "category": "Recent"
+    },
+    {
+        "id": 3,
+        "category": "Entertainment"
+    },
+    {
+        "id": 4,
+        "category": "Sports"
+    },
+    {
+        "id": 5,
+        "category": "News"
+    },
+    {
+        "id": 6,
+        "category": "Music"
+    },
+    {
+        "id": 7,
+        "category": "Naat Sharif"
+    },
+    {
+        "id": 8,
+        "category": "Programming"
+    },
+    {
+        "id": 9,
+        "category": "Technology"
+    },
+    {
+        "id": 10,
+        "category": "Coding"
+    },
+    {
+        "id": 11,
+        "category": "Tesla"
+    },
+    {
+        "id": 12,
+        "category": "AI"
+    },
+    {
+        "id": 13,
+        "category": "Bollywood"
+    },
+    {
+        "id": 14,
+        "category": "Hollywood"
+    },
+    {
+        "id": 15,
+        "category": "Live"
+    }
+]
