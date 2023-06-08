@@ -16,7 +16,7 @@ const CategoryBar = () => {
             {
                 breakpoint: 1024,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 7,
                     slidesToScroll: 3,
                     infinite: true,
                     dots: true
@@ -25,7 +25,7 @@ const CategoryBar = () => {
             {
                 breakpoint: 600,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 7,
                     slidesToScroll: 2,
                     initialSlide: 2
                 }
@@ -40,7 +40,7 @@ const CategoryBar = () => {
         ]
     };
     return (
-        <aside className='container'>
+        <aside className='w-full flex items-center justify-center my-3'>
             <Slider {...settings} className='container'>
                 {data.map((category) => {
                     return (

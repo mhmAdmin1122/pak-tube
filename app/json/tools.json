@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "toolName": "TypingO",
+        "toolsDetail": "TypingO is an online tool in which you check and set your typing speed. This typing tool make your writing speed using keyboard.",
+        "ToolPic": "/img/TypingO.gif",
+        "btnTitle": "Check TypingO"
+    },
+    {
+        "id": 2,
+        "toolName": "PKT-Edit IDE",
+        "toolsDetail": "PKT-Edit IDE is an online tool in which you edit your code.",
+        "ToolPic": "/img/pktide.gif",
+        "btnTitle": "Check PKT-Edit"
+    },
+    {
+        "id": 3,
+        "toolName": "PKT-Code Generator",
+        "toolsDetail": "PKT-Code Generator is an online tool which you generating the code that you want. Just on a click and few editing",
+        "ToolPic": "/img/pktcode.gif",
+        "btnTitle": "Check PKT-Code"
+    },
+    {
+        "id": 4,
+        "toolName": "PKT-PolicyO Generator",
+        "toolsDetail": "PKT-PolicyO Generator is an online tool which generate the policy for your company. Just on a click and few editing",
+        "ToolPic": "/img/PKTPolicyO.gif",
+        "btnTitle": "Check PKT-PolicyO"
+    }
+]

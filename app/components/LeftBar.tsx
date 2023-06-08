@@ -6,7 +6,7 @@ import Link from 'next/link'
 const LeftBar = () => {
   return (
     <aside>
-      <div className="leftBar-tabs-list">
+      <div className="leftBar-tabs-list overflow-scroll overflow-x-hidden">
         <ul>
             <Link href="/" title='Home'><li><MdHome className='text-2xl' /><b>Home</b></li></Link>
             <Link href="/" title='Tutor'><li><MdSlowMotionVideo className='text-2xl' /><b>Videos Tutor</b></li></Link>

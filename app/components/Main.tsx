@@ -1,18 +1,37 @@
 import React from 'react'
-import CategoryBar from './CategoryBar'
 import LeftBar from './LeftBar'
 import News from './News'
+import BreadCrumbs from './BreadCrumbs'
+import CourseCard from './CourseCard'
+import Products from './Products'
+import Tools from './Tools'
 
-const Main = () => {
+const Main = ({ data }: any) => {
     return (
         <main className='flex items-start w-full'>
             <LeftBar />
-            <div className="mainContent block container">
-                <CategoryBar />
-                <div className="main px-12 py-5">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusamus temporibus magni assumenda animi aliquid architecto nesciunt, perspiciatis ex eius veniam deleniti velit obcaecati eos accusantium nemo! Nam temporibus nesciunt nulla quos aliquam quibusdam explicabo maiores. Ea sed nihil quae earum assumenda magnam commodi natus ipsa laborum, exercitationem fuga molestias! Saepe delectus tenetur beatae id nemo.</p>
-                    <News />
+            <div className="main mainContent block container">
+                <div className="newsCompo px-12 py-5">
+                    <BreadCrumbs href={'/news'} breadTitle={"News"} MoreTitle={<button>Find More &rarr;</button>} />
+                    <div className="flex flex-wrap items-start justify-center">
+                        {
+                            data.map((index: any) => (
+                                <News key={index.source.id} data={index} urlImage={index.urlToImage} />
+                            ))
+                        }
+                    </div>
                 </div>
+
+                <div className="CoursesCompo px-12 py-5">
+                    <BreadCrumbs href={'/'} breadTitle={"Courses"} MoreTitle={<button>Find More &rarr;</button>} />
+                    <div className="flex flex-wrap items-start justify-center">
+                        <CourseCard />
+                    </div>
+                </div>
+
+                <Products />
+                <Tools />
+
             </div>
         </main>
     )

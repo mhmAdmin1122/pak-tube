@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "productName": "Supra-Aural Headphones from JVC",
+    "ProductPrice": 19.95,
+    "ProductCategory": "tech, Electronics",
+    "ProductDetail": "Sensitivity: 103 dB/mW, Binaural, Response Bandwidth: 8 - 20000 Hz, Connectivity technology : Wired",
+    "productPic": "/img/headphones.png"
+  },
+  {
+    "id": 2,
+    "productName": "Corsair K55 PRO LITE RGB Wired Membrane Gaming Keyboard",
+    "ProductPrice": 29.99,
+    "ProductCategory": "tech, Electronics",
+    "ProductDetail": "Dynamic RGB Backlighting: Light up your desktop with six onboard lighting effects, assign a color to each lighting zone, or program your own vibrant lighting effects across five RGB lighting zones with CORSAIR iCUE software. ",
+    "productPic": "/img/keyboard.png"
+  },
+  {
+    "id": 3,
+    "productName": "Corsair Scimitar RGB Elite, MOBA/MMO Gaming Mouse",
+    "ProductPrice": 79.99,
+    "ProductCategory": "tech, Electronics",
+    "ProductDetail": "Loaded with 17 fully programmable buttons, ideal for performing frequent actions and executing complex macros in MMOs and MOBAs.Patented Key Slider control system lets you reposition the 12 side buttons to comfortably fit your grip. hardware macro playback: three predefined profiles include actions common for MMO gaming as well as General purpose keyboard shortcuts. Custom, gaming Grade 16000 DPI Optical sensor: ultra-accurate and high-speed tracking Engine. Surface calibration tuning Utility: optimizes sensor precision and responsiveness for your playing surface.",
+    "productPic": "/img/mouse.png"
+  },
+  {
+    "id": 4,
+    "productName": "BestOffice Gaming Cheap Desk Task PU Leather Executive Lumbar Support Headrest Swivel Rolling Home Computer Stool for Women,Men",
+    "ProductPrice": 89.99,
+    "ProductCategory": "tech, Electronics",
+    "ProductDetail": "Pu Leather. COMFORT FROM EVERY ANGLE - Our high-back gaming chair is thickly cushioned for maximum comfort, whether you're spending long hours at the office, in front of the computer, or gaming. Covered with breathable premium PU leather, the chair is equipped with freely adjustable lumbar support and a headrest pillow to protect your spine and neck, while the adjustable reclining feature allows users to lock in any reclining position, from 90-135°.",
+    "productPic": "/img/chair.png"
+  }
+]

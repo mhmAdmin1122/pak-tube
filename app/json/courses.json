@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "courseTitle": "Become Professional Front-End Developer",
+        "courseDetail": "In this course you will learn Front-end programming from scratch to end. This course conatin Different front-end programming languages like (HTML, CSS3, Bootstrap5, Js, React.js, jSon, jQuery, SASS, Next.js, Angular, TypeScript, Tailwind CSS) and much more concepts of Front-End Programming.",
+        "CoursePick": "/img/front.png",
+        "CoursePrice": 50
+    },
+    {
+        "id": 2,
+        "courseTitle": "Become Professional Back-End Developer",
+        "courseDetail": "In this course you will learn Back-end programming from scratch to end. This course conatin Different back-end programming languages like (JAVA, Node.js, PHP, Python, C++, C#, Ruby, .NET, SQL) and much more concepts of Back-End Programming.",
+        "CoursePick": "/img/back.png",
+        "CoursePrice": 70
+    },
+    {
+        "id": 3,
+        "courseTitle": "Become Professional Database Developer",
+        "courseDetail": "In this course you will learn Database programming from scratch to end. This course conatin Different back-end programming languages like (MySQL, mongoDB) and much more concepts of Database Programming.",
+        "CoursePick": "/img/database.png",
+        "CoursePrice": 80
+    },
+    {
+        "id": 4,
+        "courseTitle": "Become Professional Full-Stack Developer",
+        "courseDetail": "In this course you will learn Full-Stack programming from scratch to end. This course conatin Different back-end programming languages like (HTML, CSS3, Bootstrap5, Js, React.js, jSon, jQuery, SASS,, Next.js, Angular, TypeScript, Tailwind CSS, JAVA, Node.js, PHP, Python, C++, C#, Ruby, .NET, SQL, mongoose, MySQL, mongoDB) and much more concepts of Back-End Programming.",
+        "CoursePick": "/img/full.png",
+        "CoursePrice": 170
+    }
+]

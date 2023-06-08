@@ -54,7 +54,7 @@ hr{
 }
 
 .leftBar-tabs-list{
-  height: 90%;
+  height: 570px;
 }
 .mainContent{
   width: calc(100% - 192px);
@@ -92,4 +92,22 @@ hr{
 
 .slick-slide{
   @apply px-4 py-3 border-2 border-slate-300 rounded-lg mr-3 cursor-pointer bg-slate-100 font-bold;
+}
+
+.main{
+  max-height: 560px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.main::-webkit-scrollbar, .leftBar-tabs-list::-webkit-scrollbar{
+  width: 2px;
+  background: #c8ebdf;
+}
+.main::-webkit-scrollbar-thumb, .leftBar-tabs-list::-webkit-scrollbar-thumb{
+  width: 2px;
+  background: #c8ebdf;
+}
+.main::-webkit-scrollbar-track, .leftBar-tabs-list::-webkit-scrollbar-track{
+  width: 2px;
+  background: #c8ebdf;
 }
