@@ -8,7 +8,7 @@ import { FaRegUserCircle } from 'react-icons/fa'
 
 const Navbar = () => {
     return (
-        <nav className="px-4 px-6 bg-slate-200 w-full">
+        <nav className="px-4 bg-slate-200 w-full">
             <div className="navBarComponents flex items-center justify-between">
 
                 <div className="logo-SideBar flex items-center">

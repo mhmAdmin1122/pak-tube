@@ -111,3 +111,36 @@ hr{
   width: 2px;
   background: #c8ebdf;
 }
+
+/* .face{
+  width: 160px !important;
+  height: 160px !important;
+} */
+
+.eyeRight, .eyeLeft{
+  width: 30px;
+  height: 30px;
+  background: #ffffff;
+  top: 45px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.eyeRight{
+  left: 28px;
+}
+.eyeLeft{
+  right: 28px;
+}
+.eyeDrop{
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #000;
+}
+
+
+.eyePic img{
+  height: 120px !important;
+}
